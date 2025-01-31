@@ -108,7 +108,7 @@ minetest.register_craft({
 
 --ajout un item pour desactiver le timer et reactivé le timer
 minetest.register_craftitem("mcl2_clocks:redstone_clock_item", {
-	description = S("activator"),
+	description = S("redstone clock activator"),
 	_tt_help = S("activates/deactivates redstone clocks"),
 	inventory_image = "mcl2_clocks_item.png",
 	stack_max = 1,
